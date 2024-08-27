@@ -11,7 +11,7 @@ permissions:
 
 env:
   INSTANCE: 'Writerside/lb'
-  ARTIFACT: 'webHelpB2-all.zip'
+  ARTIFACT: 'webHelpLB2-all.zip'
   DOCKER_VERSION: '241.18775'
 
 jobs:
