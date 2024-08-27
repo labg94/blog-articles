@@ -2,10 +2,9 @@
 <!DOCTYPE instance-profile
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
-<instance-profile id="b"
-                 name="blog"
+<instance-profile id="lb"
+                 name="Luis Benavides"
                  start-page="blog.md">
-
     <toc-element topic="blog.md"/>
     <toc-element topic="Records-java.md"/>
 </instance-profile>

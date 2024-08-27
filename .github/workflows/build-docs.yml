@@ -10,7 +10,7 @@ permissions:
   pages: write
 
 env:
-  INSTANCE: 'Writerside/b'
+  INSTANCE: 'Writerside/lb'
   ARTIFACT: 'webHelpB2-all.zip'
   DOCKER_VERSION: '241.18775'
 
@@ -66,6 +66,9 @@ jobs:
 
       - name: Unzip artifact
         run: unzip -O UTF-8 -qq '${{ env.ARTIFACT }}' -d dir
+
+      - name: List directory contents
+        run: ls -la dir
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
