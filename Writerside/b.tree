@@ -5,7 +5,6 @@
 <instance-profile id="b"
                  name="blog"
                  start-page="blog.md">
-
     <toc-element topic="blog.md"/>
     <toc-element topic="Records-java.md"/>
 </instance-profile>
