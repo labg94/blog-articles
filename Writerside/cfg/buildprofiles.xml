@@ -5,6 +5,8 @@
     <build-profile instance="lb">
         <variables>
             <noindex-content>false</noindex-content>
+            <primary-color>blueberry</primary-color>
+            <color-preset>vivid</color-preset>
         </variables>
     </build-profile>
 
