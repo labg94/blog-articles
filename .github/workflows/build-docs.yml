@@ -10,7 +10,7 @@ permissions:
   pages: write
 
 env:
-  INSTANCE: 'Writerside/blog'
+  INSTANCE: 'Writerside/b'
   ARTIFACT: 'webHelpB2-all.zip'
   DOCKER_VERSION: '241.18775'
 
